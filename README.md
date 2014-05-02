@@ -3,7 +3,9 @@ study-app-website
 
 To install all dependencies, run:
 
-  $ ./install.sh
+    $ ./install.sh
+
+=================
 
 # [![MEAN Logo](http://www.mean.io/img/logos/meanlogo.png)](http://mean.io/) MEAN Stack
 
@@ -17,20 +19,21 @@ MEAN is a boilerplate that provides a nice starting point for [MongoDB](http://w
 * Twitter Bootstrap - Defined as bower module in the [bower.json](bower.json) file.
 * UI Bootstrap - Defined as bower module in the [bower.json](bower.json) file.
 
+## Run the Server
 
-  We recommend using [Grunt](https://github.com/gruntjs/grunt-cli) to start the server:
+We recommend using [Grunt](https://github.com/gruntjs/grunt-cli) to start the server:
 
     $ grunt
 
-  If grunt aborts because of JSHINT errors, these can be overridden with the `force` flag:
+If grunt aborts because of JSHINT errors, these can be overridden with the `force` flag:
 
     $ grunt -f
 
-  Alternatively, when not using `grunt` you can run:
+Alternatively, when not using `grunt` you can run:
 
     $ node server
 
-  Then, open a browser and go to:
+Then, open a browser and go to:
 
     http://localhost:3000
 
