@@ -5,6 +5,10 @@ To install all dependencies, run:
 
     $ ./install.sh
 
+Once you have run install.sh, you will already have nodejs, mongodb, etc installed. If you just need to setup this project's dependencies (like if you cloned the git repo to a different location), run:
+
+    $ ./setup.sh
+
 =================
 
 # [![MEAN Logo](http://www.mean.io/img/logos/meanlogo.png)](http://mean.io/) MEAN Stack
