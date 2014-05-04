@@ -1,3 +1,16 @@
+.DS_Store
+.nodemonignore
+.sass-cache/
+.bower-*/
+.idea/
+node_modules/
+public/system/lib
+mean.iml
+test/coverage/
+modules/public/
+modules/views/
+/public/build/
+
 # Logs
 logs
 *.log
@@ -18,8 +31,3 @@ coverage
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
-
-# Dependency directory
-# Deployed apps should consider commenting this line out:
-# see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
-node_modules
